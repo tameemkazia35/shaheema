@@ -47,7 +47,9 @@ var love = setInterval(function() {
     });
 }, 500);
 
-window.onresize(function() {
+//window.addEventListener('resize', adapt);
+
+window.addEventListener('resize', function() {
   nextParticle.width = window.innerWidth;
   nextParticle.height = window.innerHeight;
   redraw();
