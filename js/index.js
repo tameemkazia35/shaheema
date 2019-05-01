@@ -2,7 +2,7 @@
 
 var nextParticle = new NextParticle(document.all.logo);
 nextParticle.particleGap = 1;
-nextParticle.noise = 30;
+nextParticle.noise = 10;
 nextParticle.mouseForce = 30;
 nextParticle.size = Math.max(window.innerWidth, window.innerHeight);
 nextParticle.colorize = false;
