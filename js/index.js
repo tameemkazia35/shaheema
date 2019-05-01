@@ -25,17 +25,6 @@ var redraw = function() {
   nextParticle.start();
 };
 
-var gui = new dat.GUI();
-gui.add(nextParticle, "particleGap", 1, 10, 1).onChange(redraw);
-gui.add(nextParticle, "noise", 0, 200, 1).onChange(redraw);
-gui.add(nextParticle, "mouseForce", -200, 200, 1).onChange(redraw);
-gui.add(nextParticle, "size", 100, 800, 1).onChange(redraw);
-gui.add(nextParticle, "colorize").onChange(redraw);
-gui.addColor(nextParticle, "tint").onChange(redraw);
-
-if (window.innerWidth < 1000) {
-  gui.close();
-}
 
 window.onresize(function() {
   nextParticle.width = window.innerWidth;
