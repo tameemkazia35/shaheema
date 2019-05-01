@@ -1,3 +1,7 @@
+body{
+  background-image: url('bg.jpg');
+  background-size: cover;
+}
 .dg.ac {
   z-index: 999!important;
 }
