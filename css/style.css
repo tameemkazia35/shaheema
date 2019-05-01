@@ -13,8 +13,8 @@ body{
 font-family: 'Tangerine', cursive !important;
 }
 .inv-content h1{
-    color: #7979e8;
-	font-size: 4em;
+    color: #7979e8 !important;
+	font-size: 64px;
 }
 .inv-content span {
     color: #fff;
