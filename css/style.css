@@ -11,6 +11,10 @@ body{
 .inv-content{
 	text-align: center;
 font-family: 'Tangerine', cursive !important;
+position: absolute;
+    top: 0;
+    left: 0;
+	right: 0;
 }
 .inv-content h1{
     color: #7979e8 !important;
