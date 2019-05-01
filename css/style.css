@@ -13,10 +13,12 @@ body{
 font-family: 'Tangerine', cursive !important;
 }
 .inv-content h1{
-    color: #9f00ff;
+    color: #000080;
+	font-size: 4em;
 }
-.inv-content span{
-	color: #000;
+.inv-content span {
+    color: #fff;
+    font-size: 36px;
 }
 .dg.ac {
   z-index: 999!important;
