@@ -8,6 +8,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+.inv-content{
+	text-align: center;
+font-family: 'Tangerine', cursive !important;
+}
 .dg.ac {
   z-index: 999!important;
 }
