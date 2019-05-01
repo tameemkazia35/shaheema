@@ -12,6 +12,12 @@ body{
 	text-align: center;
 font-family: 'Tangerine', cursive !important;
 }
+.inv-content h1{
+    color: #9f00ff;
+}
+.inv-content span{
+	color: #000;
+}
 .dg.ac {
   z-index: 999!important;
 }
