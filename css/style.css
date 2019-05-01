@@ -1,5 +1,6 @@
 html,body{
   height:100%
+  overflow: none !important;
 }
 body{
   background-image: url('../bg.jpg');
