@@ -1,7 +1,7 @@
 // see https://nextparticle.nextco.de for more informations
 
 var nextParticle = new NextParticle(document.all.logo);
-nextParticle.particleGap = 2;
+nextParticle.particleGap = 1;
 nextParticle.noise = 30;
 nextParticle.mouseForce = 30;
 nextParticle.size = Math.max(window.innerWidth, window.innerHeight);
