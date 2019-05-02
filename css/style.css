@@ -18,11 +18,11 @@ position: absolute;
 }
 .inv-content h1{
     color: #7979e8 !important;
-	font-size: 64px;
+	font-size: 60px;
 }
 .inv-content span {
     color: #fff;
-    font-size: 36px;
+    font-size: 24px;
 }
 .dg.ac {
   z-index: 999!important;
