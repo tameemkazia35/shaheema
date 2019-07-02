@@ -50,6 +50,7 @@ position: absolute;
 .btn-outline {
   background: transparent;
   color: #fff;
+  text-decoration: none !important;
   border-radius: 25px;
   padding: 5px 15px;
   border: 1px solid;
