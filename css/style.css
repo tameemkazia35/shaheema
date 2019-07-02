@@ -37,6 +37,7 @@ position: absolute;
   justify-content: center;
   width: 100%;
   flex-direction: column;
+  z-index: 999;
 }
 
 .inv-footer .date {
@@ -51,6 +52,9 @@ position: absolute;
   color: #fff;
   border-radius: 25px;
   padding: 5px 15px;
+  border: 1px solid;
+    font-size: .8rem;
+    font-family: sans-serif;
 }
 
 .bg_heart {
