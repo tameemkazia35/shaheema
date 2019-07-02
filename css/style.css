@@ -17,7 +17,7 @@ position: absolute;
 	right: 0;
 }
 .inv-content h1{
-    color: #7979e8 !important;
+    color: #adadfd !important;
   font-size: 60px;
   margin-bottom: 20px;
 }
@@ -40,7 +40,7 @@ position: absolute;
 }
 
 .inv-footer .date {
-  color: #fff;
+  color: #ffeaa7;
   font-size: 26px;
   font-family: 'Tangerine', cursive !important;
   text-align: center;
