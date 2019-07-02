@@ -41,7 +41,7 @@ position: absolute;
 .inv-footer .date {
   color: #fff;
   font-size: 18px;
-  font-family: cursive;
+  font-family: 'Tangerine', cursive !important;
   text-align: center;
 }
 
