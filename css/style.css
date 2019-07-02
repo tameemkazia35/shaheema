@@ -36,6 +36,7 @@ position: absolute;
   align-items: center;
   justify-content: center;
   width: 100%;
+  flex-direction: column;
 }
 
 .inv-footer .date {
@@ -43,6 +44,13 @@ position: absolute;
   font-size: 26px;
   font-family: 'Tangerine', cursive !important;
   text-align: center;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  border-radius: 25px;
+  padding: 5px 15px;
 }
 
 .bg_heart {
