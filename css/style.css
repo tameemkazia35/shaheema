@@ -53,9 +53,20 @@ position: absolute;
 
 .inv-footer .date {
   color: #ffeaa7;
-  font-size: 26px;
-  font-family: 'Tangerine', cursive !important;
+  font-size: 16px;
+  font-family: 'Play', sans-serif !important;
   text-align: center;
+}
+
+.inv-footer .nikah{
+  font-family: 'Playball', cursive;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.inv-footer .inshallah{
+  margin: 0;
 }
 
 .btn-outline {
