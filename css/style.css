@@ -21,7 +21,7 @@ body{
 }
 .inv-content{
 	text-align: center;
-font-family: 'Tangerine', cursive !important;
+font-family: 'Playball', cursive !important;
 position: absolute;
     top: 0;
     left: 0;
@@ -29,12 +29,13 @@ position: absolute;
 }
 .inv-content h1{
     color: #adadfd !important;
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 .inv-content span {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
+    font-family: 'Play', sans-serif !important;
 }
 .dg.ac {
   z-index: 999!important;
