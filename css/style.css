@@ -30,7 +30,7 @@ body{
   width: 200px;
   position: absolute;
   height: 200px;
-  background-image: url(../img/decor.png);
+  background-image: url('../img/decor1.png');
   background-position: center;
   background-repeat: no-repeat;
   -webkit-animation: rotation 3s infinite linear;
