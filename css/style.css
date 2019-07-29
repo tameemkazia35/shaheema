@@ -3,7 +3,7 @@ html,body{
   overflow: hidden !important;
 }
 body{
-  background-image: url('https://media.halaltrip.com/other/wp-content/uploads/2017/11/What_Is_The_Meaning_of_Nikkah_1510553158.jpg');
+  background-image: url('../img/main-bg.jpg');
       background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,8 +17,35 @@ body{
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url('http://unlockdesizn.com/html/wedding/couple-heart/demo/images/preloader.gif') center no-repeat #fff;
+	background: #000;
 }
+.center-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.center-logo:before {
+  content: '';
+  width: 200px;
+  position: absolute;
+  height: 200px;
+  background-image: url(../img/decor.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+
+
 .inv-content{
 	text-align: center;
 font-family: 'Playball', cursive !important;
